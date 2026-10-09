@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Coverage / test artifacts
+coverage/
+.nyc_output/
+
+# Editor / OS cruft
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# claude-lifeline runtime config (may contain local paths)
+.claude-lifeline.json

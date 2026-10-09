@@ -1,0 +1,13 @@
+{
+  "cwd": "/Users/py/Documents/Projects/yel/claude-lifeline",
+  "model": {
+    "id": "claude-sonnet-4-5"
+  },
+  "context_window": {
+    "used_percentage": 91,
+    "context_window_size": 200000
+  },
+  "cost": {
+    "total_cost_usd": 1.47
+  }
+}

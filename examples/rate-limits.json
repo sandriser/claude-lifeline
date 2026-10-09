@@ -1,0 +1,17 @@
+{
+  "cwd": "/Users/py/Documents/Projects/yel/claude-lifeline",
+  "model": {
+    "id": "claude-opus-4-6",
+    "display_name": "Opus"
+  },
+  "rate_limits": {
+    "five_hour": {
+      "used_percentage": 88.5,
+      "resets_at": 1760006400
+    },
+    "seven_day": {
+      "used_percentage": 42.0,
+      "resets_at": 1760611200
+    }
+  }
+}

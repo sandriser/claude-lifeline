@@ -1,0 +1,29 @@
+{
+  "name": "claude-lifeline",
+  "version": "0.1.0",
+  "description": "Ultra-fast, zero-overhead statusline for the Claude Code CLI. Reads the stdin JSON payload, renders model/context/rate-limit/git/cost segments. No API calls, no background processes, no token usage.",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "claude-lifeline": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "prepare": "npm run build",
+    "pretest": "npm run build",
+    "test": "node --test test/",
+    "dev": "node --enable-source-maps src/index.ts",
+    "bench": "node scripts/bench.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "@types/node": "^22.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
